@@ -6,6 +6,7 @@ import Subtotal from "./Subtotal";
 
 function Checkout() {
   const [{ basket, user }, dispatch] = useStateValue();
+  // const history = useHistory();
   return (
     <div className="checkout">
       <div className="checkout__left">
